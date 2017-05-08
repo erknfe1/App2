@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MasterSayfalar.MyMenu">
+
+    <StackLayout BackgroundColor="#d6083b">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="0,30,0,0">
+            <Image Source="logo.png" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+        </StackLayout>
+        <StackLayout Padding="0,30,0,0" Spacing="20">
+            <Label Text="NELER YAPARIZ" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="İŞLER" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="STARTUP PROJELER" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="BİZ KİMİZ" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="KARİYER" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="İLETİŞİM" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="BLOG" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+        </StackLayout>
+    </StackLayout>
+    
+</ContentPage>

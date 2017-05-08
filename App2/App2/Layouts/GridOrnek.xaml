@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Layouts.GridOrnek"
+             Title="GridOrnek">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Label BackgroundColor="Red" Text="0,0" Grid.Column="0" Grid.Row="0"></Label>
+        <Label BackgroundColor="Blue" Text="1,0" Grid.Column="1" Grid.Row="0"></Label>
+        <Label BackgroundColor="Yellow" Text="2,0" Grid.Column="2" Grid.Row="0"></Label>
+
+        <Label BackgroundColor="Purple" Text="0,1" Grid.Column="0" Grid.Row="1"></Label>
+        <Label BackgroundColor="Silver" Text="0,2" Grid.Column="1" Grid.Row="1"></Label>
+        <Label BackgroundColor="Lime" Text="0,3" Grid.Column="2" Grid.Row="1"></Label>
+    </Grid>
+    
+</ContentPage>
